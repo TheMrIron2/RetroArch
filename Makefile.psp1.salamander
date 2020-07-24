@@ -52,7 +52,7 @@ OBJS = frontend/frontend_salamander.o \
 		 libretro-common/time/rtime.o \
 		 file_path_str.o \
 		 verbosity.o \
-		 bootstrap/psp1/kernel_functions.o
+		 bootstrap/psp1/kernel_functions_prx/kernel_functions.o
 
 PSPSDK=$(shell psp-config --pspsdk-path)
 include $(PSPSDK)/lib/build.mak

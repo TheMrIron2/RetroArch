@@ -63,7 +63,7 @@
 
 #if defined(HAVE_KERNEL_PRX) || defined(IS_SALAMANDER)
 #ifndef VITA
-#include "../../bootstrap/psp1/kernel_functions.h"
+#include "../../bootstrap/psp1/kernel_functions_prx/kernel_functions.h"
 #endif
 #endif
 
